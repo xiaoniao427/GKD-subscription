@@ -44,7 +44,7 @@ export default defineGkdApp({
     },
     {
       key: 3,
-      name: '广告关闭',
+      name: '全屏广告-视频广告关闭',
       desc: '检测到广告关闭按钮并自动点击',
       fastQuery: true,
       activityIds: ['com.ss.android.excitingvideo.ExcitingVideoActivity'],

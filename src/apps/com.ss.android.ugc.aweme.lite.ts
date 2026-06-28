@@ -43,6 +43,15 @@ export default defineGkdApp({
       ],
     },
     {
+      key: 3,
+      name: '广告关闭',
+      desc: '检测到广告关闭按钮并自动点击',
+      fastQuery: true,
+      activityIds: ['com.ss.android.excitingvideo.ExcitingVideoActivity'],
+      rules: '@[desc="领取成功，关闭，按钮"]',
+      snapshotUrls: ['https://i.gkd.li/i/29434315'], // 已添加
+    },
+    {
       key: 8,
       name: '全屏广告-朋友推荐弹窗',
       fastQuery: true,
